@@ -1,5 +1,5 @@
 # Algorithms and Data structures with Python  
-This repository was created to help me see my progress in learning. As soon as I learn an algorithm, I try to code it by myself and add here.
+This repository was created to help me see my progress in learning. As soon as I learn an algorithm, I try to code it by myself and add here.  
 :white_circle: - planned  
 :yellow_square: - started, not tested  
 :white_check_mark: - finished and tested  
