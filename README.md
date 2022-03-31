@@ -16,10 +16,10 @@
 * :white_circle: [Queue](https://github.com/xtbtds/Machine-Learning-Algorithms)  
 
 # Algorithms
-#### Graphs
+## Graphs
 * :white_circle: DFS
 * :white_circle: BFS
-#### Maths
+## Maths
 * :white_circle: Euclid's algorithms
-#### Sortings
+## Sortings
 * :white_circle: Merge Sort
