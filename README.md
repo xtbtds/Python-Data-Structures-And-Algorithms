@@ -12,11 +12,8 @@
   * [Sortings](#sortings)
 
 ## Data Structures
-* :white_circle: [Linear Regression](https://github.com/xtbtds/Machine-Learning-Algorithms)  
-* :white_circle: Logistic Regression
-* :white_circle: Logistic Regression with L1-regularizarion
-* :white_circle: Logistic Regression with L2-regularization
-* :white_circle: Logistic Regression with Elastic Net
+* :white_circle: [Stack](https://github.com/xtbtds/Machine-Learning-Algorithms)
+* :white_circle: [Queue](https://github.com/xtbtds/Machine-Learning-Algorithms)  
 
 ## Algorithms
 #### Graphs
