@@ -8,6 +8,8 @@
 * [Data Structures](#data-structures)
 * [Algorithms](#algorithms)
   * [Graphs](#graphs)
+  * [Maths](#maths)
+  * [Sortings](#sortings)
 
 ## Data Structures
 * :white_circle: [Linear Regression](https://github.com/xtbtds/Machine-Learning-Algorithms)  
