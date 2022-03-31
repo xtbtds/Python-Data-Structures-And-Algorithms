@@ -20,6 +20,8 @@
 * :white_circle: DFS
 * :white_circle: BFS
 ## Maths
-* :white_circle: Euclid's algorithms
+* :white_circle: Euclidean Algorithm
 ## Sortings
 * :white_circle: Merge Sort
+* :white_circle: Bubble Sort
+* :white_circle: Quick Sort
