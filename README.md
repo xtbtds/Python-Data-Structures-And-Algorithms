@@ -17,7 +17,8 @@
 
 ## Algorithms
 #### Graphs
-* :white_circle: GAN generating fingerprints
+* :white_circle: DFS
+* :white_circle: BFS
 #### Maths
 * :white_circle: Euclid's algorithms
 #### Sortings
