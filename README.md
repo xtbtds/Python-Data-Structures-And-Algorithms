@@ -18,7 +18,7 @@ This repository was created to help me see my progress in learning. As soon as I
 
 # Algorithms
 ## Graphs
-* :white_check_mark: [DFS](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/DFS)
+* :white_check_mark: [DFS](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Graphs/DFS)
 * :white_circle: BFS
 ## Maths
 * :white_circle: Euclidean Algorithm
