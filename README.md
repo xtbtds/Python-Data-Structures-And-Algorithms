@@ -11,6 +11,7 @@ This repository was created to help me see my progress in learning. As soon as I
   * [Graphs](#graphs)
   * [Maths](#maths)
   * [Sortings](#sortings)
+  * [Other](#other)
 
 # Data Structures
 * :blue_square: [Stack](https://github.com/xtbtds/Machine-Learning-Algorithms)
@@ -24,10 +25,10 @@ This repository was created to help me see my progress in learning. As soon as I
 * :blue_square: Euclidean Algorithm
 ## Sortings
 * :blue_square: Merge Sort
-* :white_circle: Bubble Sort
-* :white_circle: Quick Sort
-* :white_circle: Insertion Sort
-* :white_circle: Selection Sort
+* :blue_square: Bubble Sort
+* :blue_square: Quick Sort
+* :blue_square: Insertion Sort
+* :blue_square: Selection Sort
 ## Other
 * :yellow_square: [Remove Duplicates](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Other/RemoveDuplicates)
-* :white_circle: Binary Search
+* :blue_square: Binary Search
