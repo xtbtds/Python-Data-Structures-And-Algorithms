@@ -1,3 +1,7 @@
+"""
+Print distinct array elements according to their first occurrence
+"""
+
 def remove_duplicates(arr, n):
     mapp = {i:0 for i in arr}
     for i in range(n):
