@@ -26,3 +26,5 @@ This repository was created to help me see my progress in learning. As soon as I
 * :white_circle: Merge Sort
 * :white_circle: Bubble Sort
 * :white_circle: Quick Sort
+## Other
+* :yellow_square: [Remove Duplicates]
