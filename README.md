@@ -21,6 +21,7 @@ This repository was created to help me see my progress in learning. As soon as I
 ## Graphs
 * :white_check_mark: [Depth First Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Graphs/DFS) - O(V+E) recursive implementation
 * :blue_square: Breadth First Search
+* :blue_square: Prim's Algorithm 
 ## Mathematics
 * :blue_square: Euclidean Algorithm
 ## Sortings
@@ -30,5 +31,5 @@ This repository was created to help me see my progress in learning. As soon as I
 * :blue_square: Insertion Sort
 * :blue_square: Selection Sort
 ## Other
-* :yellow_square: [Remove Duplicates](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Other/RemoveDuplicates)
+* :yellow_square: [Remove Duplicates](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Other/RemoveDuplicates) - O(n) time, O(1) memory
 * :blue_square: Binary Search
