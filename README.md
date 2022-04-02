@@ -32,5 +32,5 @@ This repository was created to help me see my progress in learning. As soon as I
 * :blue_square: Selection Sort
 ## Other
 * :yellow_square: [Remove Duplicates (sorted)](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/RemoveDuplicates/Remove_Duplicates_Sorted.py) - O(n) time, O(1) memory
-* :blue_square: Remove Duplicates (UNsorted)
+* :blue_square: Remove Duplicates (unsorted)
 * :blue_square: Binary Search
