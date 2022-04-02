@@ -20,11 +20,14 @@ This repository was created to help me see my progress in learning. As soon as I
 ## Graphs
 * :white_check_mark: [DFS](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Graphs/DFS)
 * :white_circle: BFS
-## Maths
+## Mathematics
 * :white_circle: Euclidean Algorithm
 ## Sortings
 * :white_circle: Merge Sort
 * :white_circle: Bubble Sort
 * :white_circle: Quick Sort
+* :white_circle: Insertion Sort
+* :white_circle: Selection Sort
 ## Other
 * :yellow_square: [Remove Duplicates](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Other/RemoveDuplicates)
+* :white_circle: Binary Search
