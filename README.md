@@ -21,7 +21,7 @@ This repository was created to help me see my progress in learning. As soon as I
 ## Graphs
 * :white_check_mark: [Depth First Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Graphs/DFS) - O(V+E) time, O(V) memory, O(V) additional memory - recursive implementation
 * :white_check_mark: [Depth First Search] - stack implementation
-* :blue_square: Breadth First Search
+* :white_check_mark: [Breadth First Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Graphs/BFS/BFS.py)
 * :blue_square: Prim's Algorithm 
 * :blue_square: Kruskal's Algorithm
 * :blue_square: Dijkstra Shortest Path
