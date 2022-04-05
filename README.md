@@ -30,7 +30,7 @@ This repository was created to help me see my progress in learning. As soon as I
 * :blue_square: Kruskal's Algorithm
 * :blue_square: Dijkstra Shortest Path
 ## Mathematics
-* :blue_square: Euclidean Algorithm - O(Log max(a, b)) time
+* :blue_square: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(Log max(a, b)) time
 ## Sortings
 * :blue_square: Merge Sort
 * :blue_square: Bubble Sort
