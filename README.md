@@ -14,8 +14,12 @@ This repository was created to help me see my progress in learning. As soon as I
   * [Other](#other)
 
 # Data Structures
-* :blue_square: [Stack](https://github.com/xtbtds/Machine-Learning-Algorithms)
-* :blue_square: [Queue](https://github.com/xtbtds/Machine-Learning-Algorithms)  
+* :blue_square: Stack
+* :blue_square: Queue
+* :blue_square: Linked List
+* :blue_square: Binary Tree
+* :blue_square: Heap
+
 
 # Algorithms
 ## Graphs
