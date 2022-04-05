@@ -15,8 +15,6 @@ def BFS(Graph, start_node):
             for neighbour in Graph[node]:
                 if visited[neighbour - 1] == False:
                     queue.append(neighbour)
-    print(visited)
-    print(path)
     """
     OUTPUT PARAMS:
     visited: boolean list, True if node was visited, False if not
@@ -34,6 +32,15 @@ if __name__ == "__main__":
         5: [2,1]
     }
     Graph = {1:[2,3], 2:[1,4], 3:[1,4],4:[]}
+    Graph = {
+        1: [2,4,5],
+        2: [1,3,6,7],
+        3: [2],
+        4: [1],
+        5: [1],
+        6: [6],
+        7: [7]
+    }
     start_node = 1
     BFS(Graph, start_node)
 
