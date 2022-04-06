@@ -33,7 +33,7 @@ This repository was created to help me see my progress in learning. As soon as I
 * :white_check_mark: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(Log max(a, b)) time
 ## Sortings
 * :blue_square: Merge Sort
-* :blue_square: Bubble Sort
+* :white_check_mark: [Bubble Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/bubble_sort.py) - O(n^2) time, no additional memory
 * :blue_square: Quick Sort
 * :blue_square: Insertion Sort
 * :blue_square: Selection Sort
