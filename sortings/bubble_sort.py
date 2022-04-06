@@ -1,20 +1,18 @@
 def bubble_sort(arr):
     """
     arr - array need to be sorted
-    IsSwapped - if after one pass through the array we haven't found at least one 
+    IsSorted - if after one pass through the array we haven't found at least one 
         bigger element standing before smaller element, the array is already sorted
         and we can finish the algorithm.
     """
-    IsSwapped = False
+    IsSorted = True
     length = len(arr)
     for i in range(length-1):
         for j in range(length-1):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
-                IsSwapped = True
-        if IsSwapped:
-            IsSwapped = False
-        else:
+                IsSorted = False
+        if IsSorted:
             break
     return arr
 
