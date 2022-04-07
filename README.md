@@ -31,7 +31,7 @@ This repository was created to help me see my progress in learning. As soon as I
 * :white_check_mark: [Dijkstra Shortest Path](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Graphs/Dijkstra/dijkstra_shortest_path.py) - O(|V|^2) time
 * :blue_square: Bellman Ford's Shortest Path
 ## Mathematics
-* :white_check_mark: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(Log max(a, b)) time
+* :white_check_mark: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(log(max(a, b))) time
 * :white_check_mark: [Sieve of Eratosthenes](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/sieve_of_eratosthenes.py) - O(n*log(logn)) time, O(n) additional memory
 * :blue_square: Prime Factorization
 ## Sortings
