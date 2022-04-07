@@ -6,7 +6,7 @@ def sieve_of_eratosthenes(n):
     """
     numbers[1] = 0
     i = 2
-    while i <= n:
+    while i*i <= n:
         if numbers[i] != 0:        #if its not 0, we've found prime
             j = i*2                #the first multiple for i
             while j <= n:
