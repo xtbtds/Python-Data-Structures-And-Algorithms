@@ -33,6 +33,7 @@ This repository was created to help me see my progress in learning. As soon as I
 ## Mathematics
 * :white_check_mark: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(Log max(a, b)) time
 * :white_check_mark: [Sieve of Eratosthenes](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/sieve_of_eratosthenes.py) - O(n*log(logn)) time, O(n) additional memory
+* :blue_square: Prime Factorization
 ## Sortings
 * :blue_square: Merge Sort
 * :white_check_mark: [Bubble Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/bubble_sort.py) - O(n^2) time, no additional memory
