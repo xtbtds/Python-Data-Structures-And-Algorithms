@@ -29,6 +29,7 @@ This repository was created to help me see my progress in learning. As soon as I
 * :blue_square: Prim's Algorithm 
 * :blue_square: Kruskal's Algorithm
 * :white_check_mark: [Dijkstra Shortest Path](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Graphs/Dijkstra/dijkstra_shortest_path.py) - O(|V|^2) time
+* :blue_square: Bellman Ford's Shortest Path
 ## Mathematics
 * :white_check_mark: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(Log max(a, b)) time
 ## Sortings
