@@ -23,7 +23,7 @@ def prim(Graph):
         u = min_value_vertice(key_values, mstSet)
         mstSet[u-1] =True
         for adjacent in Graph[u]:
-            if Graph[u][adjacent] <= key_values[adjacent-1]:
+            if Graph[u][adjacent] < key_values[adjacent-1]:
                 key_values[u-1] = Graph[u][adjacent]
                 edge_to[u-1] = adjacent
     return key_values, edge_to
