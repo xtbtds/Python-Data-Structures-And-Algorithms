@@ -28,6 +28,8 @@ def prim(Graph):
                 edge_to[u-1] = adjacent
     return key_values, edge_to
 
+
+
 if __name__ == "__main__":
     Graph = {
         1: {2:50, 3:45, 4:10},
@@ -37,15 +39,11 @@ if __name__ == "__main__":
         5: {2:20, 3:35, 4:15, 6:3},
         6: {5:3}
     }
-    # Graph = {
-    #     1: {2:2, 3:4},
-    #     2: {3:1, 4:7},
-    #     3: {5:3},
-    #     4: {6:1},
-    #     5: {4:2, 6:5},
-    #     6: {}
-    # }
+
     res, edge_to = prim(Graph)
-    print(res, edge_to)
+    vertices_count = len(res)
+    for i in range(vertices_count):
+        if edge_to[i]:
+            print(f"Edge {i+1}---{edge_to[i]}:  {res[i]}")
 
 
