@@ -17,7 +17,7 @@ This repository was created to help me see my progress in learning. As soon as I
 # Data Structures
 * :blue_square: Stack
 * :blue_square: Queue
-* :blue_square: Linked List
+* :white_check_mark: [Linked List](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Linked_List.py)
 * :blue_square: Binary Tree
 * :blue_square: Heap
 
