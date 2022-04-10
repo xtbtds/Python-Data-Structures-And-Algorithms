@@ -45,3 +45,4 @@ This repository was created to help me see my progress in learning. As soon as I
 * :white_check_mark: [Remove Duplicates (sorted)](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/RemoveDuplicates/Remove_Duplicates_Sorted.py) - O(n) time, O(n) memory, O(1) additional memory
 * :white_check_mark: [Remove Duplicates (unsorted)](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/RemoveDuplicates/Remove_Duplicates_Unsorted.py) - O(n) time, O(n) memory - map implementation
 * :white_check_mark: [Binary Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/Binary_Search.py)
+* :white_check_mark: Binary Search on Singly Linked List
