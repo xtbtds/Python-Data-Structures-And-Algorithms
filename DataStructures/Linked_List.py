@@ -39,34 +39,50 @@ class LinkedList:
         if self.head == None:        #if linked list is empty
             self.head = new_node
             return
-
         last = self.head            #traverse through the linked list until we find node with next == none
         while (last.next):
             last = last.next
         last.next = new_node
 
+
     #_______________________DELETE_________________________
     def delete(self, key):
-
         temp = self.head
-
         if temp == None:            #if empty
             return
-
         if temp.data == key:        #if delete head
             self.head = temp.next
             return
-
         while temp:                 #find previous
             if temp.data == key:
                 break
             prev = temp
             temp = temp.next
-
         if temp == None:            #if there is no such element
             return
-
         prev.next = temp.next       #change the link to next
+
+
+    def delete_by_position(self, position=0):
+        temp = self.head
+        if temp == None:            #if empty
+            return
+        if position == 0:           #if position is head
+            self.head = temp.next
+            return
+        curr_pos = 0
+        while curr_pos < position and temp:
+            prev = temp
+            temp = temp.next
+            curr_pos += 1
+        if curr_pos == position:    #what element is deleted
+            print(f"Deleted element: {temp.data}")
+        if temp == None:            #if position > len
+            print(f"Given position is bigger than length of linked list. Enter position <= {curr_pos-1}")
+            return
+        prev.next = temp.next
+
+
 
 
 if __name__=='__main__':
@@ -88,8 +104,9 @@ if __name__=='__main__':
     list1.append(6)
     list1.insert_after_node(list1.head, 57)
 
-    list1.delete(1356)
     list1.delete(6)
+    list1.delete_by_position(3)
+    list1.delete_by_position(33)
 
     #print linked list
     list1.print_llist()
