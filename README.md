@@ -17,7 +17,7 @@ This repository was created to help me see my progress in learning. As soon as I
 # Data Structures
 * :blue_square: Stack
 * :blue_square: Queue
-* :yellow_square: [Linked List](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Linked_List.py) - create :white_check_mark: insert :white_check_mark: delete node :white_check_mark: delete linked list :blue_square:
+* :yellow_square: [Linked List](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Linked_List.py) - create :white_check_mark: insert :white_check_mark: delete node :white_check_mark: delete node at a given position :blue_square: delete linked list :blue_square:
 * :blue_square: Binary Tree
 * :blue_square: Heap
 
