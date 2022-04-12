@@ -46,8 +46,27 @@ class LinkedList:
         last.next = new_node
 
     #_______________________DELETE_________________________
+    def delete(self, key):
 
+        temp = self.head
 
+        if temp == None:            #if empty
+            return
+
+        if temp.data == key:        #if delete head
+            self.head = temp.next
+            return
+
+        while temp:                 #find previous
+            if temp.data == key:
+                break
+            prev = temp
+            temp = temp.next
+
+        if temp == None:            #if there is no such element
+            return
+
+        prev.next = temp.next       #change the link to next
 
 
 if __name__=='__main__':
@@ -69,8 +88,12 @@ if __name__=='__main__':
     list1.append(6)
     list1.insert_after_node(list1.head, 57)
 
+    list1.delete(1356)
+    list1.delete(6)
+
     #print linked list
     list1.print_llist()
+
 
 
 
