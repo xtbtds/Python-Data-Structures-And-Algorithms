@@ -18,8 +18,12 @@ This repository was created to help me see my progress in learning. As soon as I
 * :blue_square: Stack
 * :blue_square: Queue
 * :yellow_square: [Linked List](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Linked_List.py) - create :white_check_mark: insert :white_check_mark: delete node :white_check_mark: delete by index :white_check_mark: reverse :blue_square:
-* :blue_square: Binary Tree
 * :blue_square: Heap
+## Trees
+* :blue_square: AVL trees
+* :blue_square: Splay trees
+* :blue_square: Red/black trees
+* :blue_square: Binary Tree
 
 
 # Algorithms
