@@ -17,7 +17,7 @@ This repository was created to help me see my progress in learning. As soon as I
 # Data Structures
 * :blue_square: Stack
 * :blue_square: Queue
-* :yellow_square: [Linked List](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Linked_List.py) - create :white_check_mark: insert :white_check_mark: delete node :white_check_mark: delete node at a given position :white_check_mark: delete linked list :blue_square:
+* :yellow_square: [Linked List](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Linked_List.py) - create :white_check_mark: insert :white_check_mark: delete node :white_check_mark: delete by index :white_check_mark: reverse :blue_square:
 * :blue_square: Binary Tree
 * :blue_square: Heap
 
@@ -27,10 +27,12 @@ This repository was created to help me see my progress in learning. As soon as I
 * :white_check_mark: [Depth First Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Graphs/DFS) - O(V+E) time, O(V) memory, O(V) additional memory - recursive implementation
 * :white_check_mark: [Depth First Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Graphs/DFS/DFS_stack.py) - O(V+E) time - stack implementation
 * :white_check_mark: [Breadth First Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Graphs/BFS/BFS.py) - O(V+E) time - queue implementation
-* :yellow_square: [Prim's Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Graphs/Prims_Algorithm)
+* :yellow_square: [Prim's Algorithm (MST)](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Graphs/Prims_Algorithm)
 * :blue_square: Kruskal's Algorithm
 * :white_check_mark: [Dijkstra Shortest Path](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Graphs/Dijkstra/dijkstra_shortest_path.py) - O(|V|^2) time
 * :blue_square: Bellman Ford's Shortest Path
+* :blue_square: Topological Sort
+* :blue_square: Kosaraju's Algorithm (strongly connected components)
 ## Mathematics
 * :white_check_mark: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(log(max(a, b))) time
 * :white_check_mark: [Sieve of Eratosthenes](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/sieve_of_eratosthenes.py) - O(n*log(logn)) time, O(n) additional memory
