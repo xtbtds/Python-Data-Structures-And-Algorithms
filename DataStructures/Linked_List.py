@@ -8,6 +8,9 @@ Drawbacks:
 2) Extra memory space for a pointer
 """
 
+from importlib_metadata import NullFinder
+
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -82,6 +85,18 @@ class LinkedList:
             return
         prev.next = temp.next
 
+#____________________REVERSE______________________
+    def reverse(self):
+        prev = None
+        current = self.head
+        while (current):
+            next = current.next   #store next
+            current.next = prev   #actual reversing
+            prev = current        #step
+            current = next
+        self.head = prev
+        return self
+
 
 
 
@@ -109,7 +124,14 @@ if __name__=='__main__':
     list1.delete_by_position(33)
 
     #print linked list
+    #list1.print_llist()
+
+    list1 = list1.reverse()
+
+    #print linked list
     list1.print_llist()
+
+    
 
 
 
