@@ -45,7 +45,7 @@ This repository was created to help me see my progress in learning. As soon as I
 * :blue_square: Merge Sort
 * :white_check_mark: [Bubble Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/bubble_sort.py) - O(n^2) time, no additional memory
 * :blue_square: Quick Sort
-* :blue_square: Insertion Sort
+* :white_check_mark: [Insertion Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/insertion_sort.py)
 * :white_check_mark: [Selection Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/selection_sort.py) - O(n^2) time, no additional memory
 ## Cryptography
 * :blue_square: Caesar Cipher
