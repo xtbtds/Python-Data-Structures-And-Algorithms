@@ -1,49 +1,49 @@
-# ONLY FOR GRAPH REPRESENTED AS DICT
-# Finds Minimum Spanning Tree (MST) for an UNdirected graph.
+#FINDS MINIMUM SPANNING TREE (Greedy algo)
 
 import sys
 
-def min_value_vertice(key_values, mstSet):
-    min = sys.maxsize
-    l = len(key_values)
-    for i in range(l):
-        if key_values[i] <= min and mstSet[i] == False:
-            min = key_values[i]
-            min_index = i+1
-    return min_index
-    
+class Graph():
+    def __init__(self, vertices):
+        self.v = vertices
+        self.graph = [[0 for i in range(vertices)] for j in range(vertices)]
 
-def prim(Graph):
-    len_graph = len(Graph)
-    mstSet = [False for i in range(len_graph)]
-    edge_to = [None for i in range(len_graph)]
-    key_values = [sys.maxsize for i in range(len_graph)]
-    key_values[0] = 0
-    while mstSet.count(False):
-        u = min_value_vertice(key_values, mstSet)
-        mstSet[u-1] =True
-        for adjacent in Graph[u]:
-            if Graph[u][adjacent] < key_values[adjacent-1]:
-                key_values[u-1] = Graph[u][adjacent]
-                edge_to[u-1] = adjacent
-    return key_values, edge_to
+    def printMST(self, values, parent):
+        print("edge    weight")
+        for i in range(1, self.v):
+            print(f"{parent[i]}-{i}     {values[i]}")
+
+    def min_key_value(self, mstSet, values):    #select vertice with minimum values which is not in mstSet
+        min = sys.maxsize
+        for i in range(self.v):
+            if values[i] < min and mstSet[i] == False:
+                min = values[i]
+                min_index = i
+        return min_index
+
+    def prim(self):
+        mstSet = [False for i in range(self.v)]    #is already in MST or not
+        values = [sys.maxsize for i in range(self.v)]    #minimum weights to every vertice
+        values[0] = 0
+        parent = [-1 for i in range(self.v)]    #list of parent vertices we pick FINAL edges with
+        while mstSet.count(False):    
+            u = self.min_key_value(mstSet, values)
+            mstSet[u] = True
+            for v in range(self.v):   #for 
+                if self.graph[u][v] < values[v] and self.graph[u][v] > 0 and mstSet[v] == False:
+                    values[v] = self.graph[u][v]
+                    parent[v] = u
+        self.printMST(values, parent)
+
 
 
 
 if __name__ == "__main__":
-    Graph = {
-        1: {2:50, 3:45, 4:10},
-        2: {1:50, 3:10, 4:15, 5:20},
-        3: {5:35, 2:10, 1:45},
-        4: {1:10, 2:15, 5:15},
-        5: {2:20, 3:35, 4:15, 6:3},
-        6: {5:3}
-    }
-
-    res, edge_to = prim(Graph)
-    vertices_count = len(res)
-    for i in range(vertices_count):
-        if edge_to[i]:
-            print(f"Edge {i+1}---{edge_to[i]}:  {res[i]}")
-
-
+        g = Graph(5)
+        g.graph = [
+                [0, 1, 8, 6, 0],
+                [1, 0, 3, 8, 5],
+                [8, 3, 0, 0, 7],
+                [6, 8, 0, 0, 9],
+                [0, 5, 7, 9, 0]
+                ]
+        g.prim()
