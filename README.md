@@ -31,7 +31,7 @@ This repository was created to help me see my progress in learning. As soon as I
 * :white_check_mark: [Depth First Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Graphs/DFS) - O(V+E) time, O(V) memory, O(V) additional memory - recursive implementation
 * :white_check_mark: [Depth First Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Graphs/DFS/DFS_stack.py) - O(V+E) time - stack implementation
 * :white_check_mark: [Breadth First Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Graphs/BFS/BFS.py) - O(V+E) time - queue implementation
-* :yellow_square: [Prim's Algorithm (MST)](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/tree/main/Graphs/Prims_Algorithm)
+* :white_check_mark: [Prim's Algorithm (MST)](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Graphs/Prims_Algorithm/prim_undirected.py) - O(V^2) time
 * :blue_square: Kruskal's Algorithm
 * :white_check_mark: [Dijkstra Shortest Path](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Graphs/Dijkstra/dijkstra_shortest_path.py) - O(|V|^2) time
 * :blue_square: Bellman Ford's Shortest Path
