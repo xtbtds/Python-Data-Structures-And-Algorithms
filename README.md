@@ -41,6 +41,11 @@ This repository was created to help me see my progress in learning. As soon as I
 * :white_check_mark: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(log(max(a, b))) time
 * :white_check_mark: [Sieve of Eratosthenes](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/sieve_of_eratosthenes.py) - O(n*log(logn)) time, O(n) additional memory
 * :blue_square: Prime Factorization
+* :blue_square: Nth Catalan Number
+* :blue_square: Check if two given line segments intersect
+* :blue_square: Check if a given point lies inside or outside a polygon
+* :blue_square: Convex Hull (Jarvis’s Algorithm or Wrapping)
+* :blue_square: Convex Hull (Graham Scan)
 ## Sortings
 * :blue_square: Merge Sort
 * :white_check_mark: [Bubble Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/bubble_sort.py) - O(n^2) time, no additional memory
