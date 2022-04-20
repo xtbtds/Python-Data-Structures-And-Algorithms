@@ -18,7 +18,7 @@ This repository was created to help me see my progress in learning. As soon as I
 * :blue_square: Stack
 * :blue_square: Queue
 * :white_check_mark: [Linked List](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Linked_List.py) - create, insert, delete node, delete by index, reverse
-* :blue_square: Heap
+* :blue_square: Binary Heap
 ## Trees
 * :blue_square: AVL trees
 * :blue_square: Splay trees
@@ -47,6 +47,7 @@ This repository was created to help me see my progress in learning. As soon as I
 * :blue_square: Quick Sort
 * :white_check_mark: [Insertion Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/insertion_sort.py) - O(n^2) time, O(1) additional memory
 * :white_check_mark: [Selection Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/selection_sort.py) - O(n^2) time, no additional memory
+* :blue_square: Heap Sort
 ## Cryptography
 * :blue_square: Caesar Cipher
 ## Other
