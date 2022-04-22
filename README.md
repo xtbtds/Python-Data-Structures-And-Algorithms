@@ -18,7 +18,7 @@ This repository was created to help me see my progress in learning. As soon as I
 * :blue_square: Stack
 * :blue_square: Queue
 * :white_check_mark: [Linked List](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Linked_List.py) - create, insert, delete node, delete by index, reverse
-* :blue_square: Binary Heap
+* :white_check_mark: [Binary Heap](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Heap.py) - insertKey, decreaseKey, extractMin, deleteKeyAt
 ## Trees
 * :blue_square: AVL trees
 * :blue_square: Splay trees
