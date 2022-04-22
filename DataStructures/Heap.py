@@ -10,7 +10,7 @@ Each node has greater value than any of its children.
 
 class MinHeap():
     def __init__(self, capacity):
-        self.INT_MIN = -2147483648
+        self.INT_MIN = -214748364
         self.size = 0
         self.capacity = capacity
         self.array = []
@@ -49,7 +49,7 @@ class MinHeap():
         self.array[0] = self.array[self.size - 1]
         self.size -= 1
         self.array.pop()
-        self.minHeapify(root)
+        self.minHeapify(0)
         return root
 
     def getMin(self):
@@ -66,7 +66,6 @@ class MinHeap():
         l = self.leftChild(i)
         r = self.rightChild(i)
         smallest = i
-        print(l,r, smallest)
         if l < self.size:
             if self.array[l] < self.array[i]:
                 smallest = l
@@ -86,9 +85,15 @@ if __name__ == "__main__":
     h.insertKey(5)
     h.insertKey(2)
     h.insertKey(0)
-    # h.decreaseKey(1, 0.2)
-    # h.extractMin()
-    # h.deleteKeyAt(0)
+    print(h.array)
+    h.decreaseKey(1, 1.2)
+    print(h.array)
+    h.extractMin()
+    h.extractMin()
+    print(h.array)
+    h.deleteKeyAt(0)
+    h.deleteKeyAt(2)
+    h.deleteKeyAt(1)
     print(h.array)
 
         
