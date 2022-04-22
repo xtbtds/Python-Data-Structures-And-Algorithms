@@ -2,8 +2,9 @@
 Implementation of MinHeap without any libraries in pure python.
 
 Binary heap is a complete binary tree with N nodes, 
-it has has smallest possible height which is log_2^N.
+it has has smallest possible height log_2^N.
 Each node has greater value than any of its children.
+
 """
 
 
@@ -28,13 +29,13 @@ class MinHeap():
         self.size += 1
         i = self.size - 1
         self.array.append(k)
-        while i != 0 and self.array[self.parent(i)] > self.array[i]:
+        while i >= 0 and self.array[self.parent(i)] > self.array[i]:
             self.array[self.parent(i)], self.array[i] = self.array[i], self.array[self.parent(i)]
             i = self.parent(i)
 
     def decreaseKey(self, i, new_value):    #decrease a value at i to new_value
         self.array[i] = new_value
-        while i != 0 and self.array[self.parent(i)] > self.array[i]:
+        while i >= 0 and self.array[self.parent(i)] > self.array[i]:
             self.array[self.parent(i)], self.array[i] = self.array[i], self.array[self.parent(i)]
             i = self.parent(i)
 
@@ -65,6 +66,7 @@ class MinHeap():
         l = self.leftChild(i)
         r = self.rightChild(i)
         smallest = i
+        print(l,r, smallest)
         if l < self.size:
             if self.array[l] < self.array[i]:
                 smallest = l
@@ -77,13 +79,16 @@ class MinHeap():
         
 if __name__ == "__main__":
     h = MinHeap(10)
-    h.insertKey(0)
     h.insertKey(1)
-    h.insertKey(2)
     h.insertKey(3)
+    h.insertKey(2)
     h.insertKey(4)
-    h.extractMin()
-    h.deleteKeyAt(2)
+    h.insertKey(5)
+    h.insertKey(2)
+    h.insertKey(0)
+    # h.decreaseKey(1, 0.2)
+    # h.extractMin()
+    # h.deleteKeyAt(0)
     print(h.array)
 
         
