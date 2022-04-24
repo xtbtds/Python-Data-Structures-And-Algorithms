@@ -41,7 +41,7 @@ This repository was created to help me see my progress in learning. As soon as I
 * :white_check_mark: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(log(max(a, b))) time
 * :white_check_mark: [Sieve of Eratosthenes](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/sieve_of_eratosthenes.py) - O(n*log(logn)) time, O(n) additional memory
 * :blue_square: Prime Factorization
-* :blue_square: Nth Catalan Number
+* :white_check_mark: [Nth Catalan Number](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Catalans.py) - recursive, dynamic, bin coeff
 * :blue_square: Check if two given line segments intersect
 * :blue_square: Check if a given point lies inside or outside a polygon
 * :blue_square: Convex Hull (Jarvis’s Algorithm or Wrapping)
