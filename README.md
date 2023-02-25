@@ -7,6 +7,8 @@
 
 # Table of contents
 * [Data Structures](#data-structures)
+  * [Arrays](#arrays)
+  * [Trees](#trees)
 * [Algorithms](#algorithms)
   * [Graphs](#graphs)
   * [Maths](#maths)
@@ -19,8 +21,13 @@
 * :white_check_mark: [Linked List](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Linked_List.py) - create, insert, delete node, delete by index, reverse
 * :white_check_mark: [Binary Heap](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/DataStructures/Heap.py) - insertKey, decreaseKey, extractMin, deleteKeyAt
 ## Arrays
-* :white_check_mark: [Merge sorted arrays]() - O(n) time, O(1) memory
-* :white_check_mark: [Remove element]() - O(n) time, O(1) memory
+* :white_check_mark: [Merge sorted arrays](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Merge_sorted_array.py) - O(n) time, O(1) memory
+* :white_check_mark: [Remove element](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Remove_element.py) - O(n) time, O(1) memory
+* :white_check_mark: [Remove duplicates from sorted](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Remove_dupl_from_sorted.py) - O(n) time, O(1) 
+* :white_check_mark: [Squares of sorted array](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Squares_of_sorted_array.py) - O(n) time, O(n) memory
+* :white_check_mark: [Valid mountain array](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Valid_mountain_array.py) - O(n) time, O(1) memory
+* :white_check_mark: [Third maximum](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Third_max.py) - O(n) time, O(1) memory
+* :white_check_mark: [Find all disappeared](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Find_all_disappeared.py) - O(n) time,  from O(1) to O(n) memory
 
 ## Trees
 * :blue_square: AVL trees
