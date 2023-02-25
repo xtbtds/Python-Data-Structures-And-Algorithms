@@ -23,7 +23,7 @@
 ## Arrays
 * :white_check_mark: [Merge sorted arrays](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Merge_sorted_array.py) - O(n) time, O(1) memory
 * :white_check_mark: [Remove element](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Remove_element.py) - O(n) time, O(1) memory
-* :white_check_mark: [Remove duplicates from sorted](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Remove_dupl_from_sorted.py) - O(n) time, O(1) 
+* :white_check_mark: [Remove duplicates from sorted](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Remove_dupl_from_sorted.py) - O(n) time, O(1) memory
 * :white_check_mark: [Squares of sorted array](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Squares_of_sorted_array.py) - O(n) time, O(n) memory
 * :white_check_mark: [Valid mountain array](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Valid_mountain_array.py) - O(n) time, O(1) memory
 * :white_check_mark: [Third maximum](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Third_max.py) - O(n) time, O(1) memory
