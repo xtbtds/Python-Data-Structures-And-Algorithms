@@ -69,4 +69,4 @@
 * :white_check_mark: [Binary Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/Binary_Search.py)
 * :white_check_mark: [Pascal's Triangle](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/pascals_triangle.py)
 * :blue_square: Binary Search on Singly Linked List
-* ✅: [Huffman code]()
+* ✅: [Huffman code](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/huffman_code_graph.pyhttps://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/huffman_code_graph.py) - O(nlogn) time, with graph creation
