@@ -69,3 +69,4 @@
 * :white_check_mark: [Binary Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/Binary_Search.py)
 * :white_check_mark: [Pascal's Triangle](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/pascals_triangle.py)
 * :blue_square: Binary Search on Singly Linked List
+* ✅: [Huffman code]()
