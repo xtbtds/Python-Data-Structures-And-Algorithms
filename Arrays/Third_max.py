@@ -1,5 +1,5 @@
 class Solution:
-    def thirdMax(self, nums: List[int]) -> int:
+    def thirdMax(self, nums: list[int]) -> int:
         max1=nums[0]
         max2=nums[0]
         max3=nums[0]

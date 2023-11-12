@@ -14,6 +14,7 @@ class MinHeap():
         self.size = 0
         self.capacity = capacity
         self.array = []
+        
     def parent(self, i):
         return round((i-1)/2)
 
@@ -76,6 +77,7 @@ class MinHeap():
             self.array[i], self.array[smallest] = self.array[smallest], self.array[i]
             self.minHeapify(smallest)
         
+
 if __name__ == "__main__":
     h = MinHeap(10)
     h.insertKey(1)
