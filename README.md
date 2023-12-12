@@ -11,8 +11,9 @@
   * [Trees](#trees)
 * [Algorithms](#algorithms)
   * [Graphs](#graphs)
-  * [Maths](#maths)
+  * [Mathematics](#mathematics)
   * [Greedy algorithms](#greedy-algorithms)
+  * [Dynamic programming](#dynamic-programming)
   * [Sortings](#sortings)
   * [Other](#other)
 
@@ -29,7 +30,6 @@
 * :white_check_mark: [Valid mountain array](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Valid_mountain_array.py) - O(n) time, O(1) memory
 * :white_check_mark: [Third maximum](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Third_max.py) - O(n) time, O(1) memory
 * :white_check_mark: [Find all disappeared](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Arrays/Find_all_disappeared.py) - O(n) time,  from O(1) to O(n) memory
-
 ## Trees
 * :blue_square: AVL trees
 * :blue_square: Splay trees
@@ -49,6 +49,7 @@
 * :blue_square: Topological Sort
 * :blue_square: Kosaraju's Algorithm (strongly connected components)
 ## Greedy algorithms
+## Dynamic programming
 ## Mathematics
 * :white_check_mark: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(log(max(a, b))) time
 * :white_check_mark: [Sieve of Eratosthenes](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/sieve_of_eratosthenes.py) - O(n*log(logn)) time, O(n) additional memory
