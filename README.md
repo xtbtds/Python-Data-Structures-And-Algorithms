@@ -70,3 +70,7 @@
 * :white_check_mark: [Pascal's Triangle](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/pascals_triangle.py)
 * :blue_square: Binary Search on Singly Linked List
 * ✅ [Huffman code](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/huffman_code_graph.py) - O(nlogn) time, with graph creation
+* ✅ [Multiply]() - O(n^2) time, recursive
+* :blue_square: [Multiply]() - O(?)
+* ✅ [Fibonacchi mod]() - O(n) time, O(n) memory
+
