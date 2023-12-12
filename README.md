@@ -60,7 +60,7 @@
 * :blue_square: Convex Hull (Jarvis’s Algorithm or Wrapping)
 * :blue_square: Convex Hull (Graham Scan)
 * ✅ [Multiply](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/multiply_square_time.py) - O(n^2) time, recursive
-* :blue_square: [Multiply]() - O(?)
+* ✅: [Karatsuba multiply](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/karatsuba.py) - O(1.59)
 * ✅ [Fibonacchi mod](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/fibonacchi_mod.py) - O(n) time, O(n) memory
 ## Sortings
 * :blue_square: Merge Sort
