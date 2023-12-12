@@ -56,9 +56,9 @@
 * :blue_square: Check if a given point lies inside or outside a polygon
 * :blue_square: Convex Hull (Jarvis’s Algorithm or Wrapping)
 * :blue_square: Convex Hull (Graham Scan)
-* ✅ [Multiply]() - O(n^2) time, recursive
+* ✅ [Multiply](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/multiply_square_time.py) - O(n^2) time, recursive
 * :blue_square: [Multiply]() - O(?)
-* ✅ [Fibonacchi mod]() - O(n) time, O(n) memory
+* ✅ [Fibonacchi mod](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/fibonacchi_mod.py) - O(n) time, O(n) memory
 ## Sortings
 * :blue_square: Merge Sort
 * :white_check_mark: [Bubble Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/bubble_sort.py) - O(n^2) time, no additional memory
@@ -73,6 +73,5 @@
 * :white_check_mark: [Binary Search](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/Binary_Search.py)
 * :white_check_mark: [Pascal's Triangle](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Other/pascals_triangle.py)
 * :blue_square: Binary Search on Singly Linked List
-
 
 
