@@ -12,6 +12,7 @@
 * [Algorithms](#algorithms)
   * [Graphs](#graphs)
   * [Maths](#maths)
+  * [Greedy algorithms](#greedy-algorithms)
   * [Sortings](#sortings)
   * [Other](#other)
 
@@ -47,6 +48,7 @@
 * :blue_square: Bellman Ford's Shortest Path
 * :blue_square: Topological Sort
 * :blue_square: Kosaraju's Algorithm (strongly connected components)
+## Greedy algorithms
 ## Mathematics
 * :white_check_mark: [Euclidean Algorithm](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/Euclidean_GCD.py) - O(log(max(a, b))) time
 * :white_check_mark: [Sieve of Eratosthenes](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/sieve_of_eratosthenes.py) - O(n*log(logn)) time, O(n) additional memory
