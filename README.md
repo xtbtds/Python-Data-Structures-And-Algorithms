@@ -63,7 +63,7 @@
 * ✅ [Karatsuba multiply](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/karatsuba.py) - O(1.59)
 * ✅ [Fibonacchi mod](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/Mathematics/fibonacchi_mod.py) - O(n) time, O(n) memory
 ## Sortings
-* :blue_square: Merge Sort
+* :white_check_mark: [Merge Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/merge_sort.py) - O(n^2) time, O(n) additional memory
 * :white_check_mark: [Bubble Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/bubble_sort.py) - O(n^2) time, no additional memory
 * :blue_square: Quick Sort
 * :white_check_mark: [Insertion Sort](https://github.com/xtbtds/Python-Data-Structures-And-Algorithms/blob/main/sortings/insertion_sort.py) - O(n^2) time, O(1) additional memory
